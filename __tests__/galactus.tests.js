@@ -1,8 +1,8 @@
 import { GalactusCalculator } from '.../src/js/galactus.js';
 
 describe('', () => {
-  let VARIABLE;
+  let user;
   beforeEach(() => {
-    VARIABLE = new GalactusCalculator()
+    user = new GalactusCalculator()
   }
 });
