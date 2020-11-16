@@ -61,4 +61,9 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
     let user = new GalactusCalculator(24,50);
     expect(user.marsDifference).toEqual(14);
   });
+
+  test('Test 12: Should calculate jupitarAge value using the earthAge value', () =>{
+    let user = new GalactusCalculator(24);
+    expect(user.jupitarAge).toEqual(2);
+  });
 });
