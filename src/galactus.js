@@ -5,5 +5,6 @@ export class GalactusCalculator {
     this.earthAge = earthAge;
     this.earthExpectancy = earthExpectancy;
     this.earthDifference = earthExpectancy - earthAge;
+    this.mercuryAge = Math.floor(earthAge / .24);
   }
 }
