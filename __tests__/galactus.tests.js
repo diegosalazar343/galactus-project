@@ -76,4 +76,9 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
     let user = new GalactusCalculator(24,50);
     expect(user.jupitarDifference).toEqual(2);
   });
+
+  test('Test 15: Should calculate jupitarOver value using the jupitarAge age JupitarExpectancy values', ()=>{
+    let user = new GalactusCalculator(100,50);
+    expect(user.jupitarOver).toEqual(4);
+  });
 });

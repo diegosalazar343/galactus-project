@@ -16,5 +16,6 @@ export class GalactusCalculator {
     this.jupitarAge = Math.floor(earthAge / 11.86);
     this.jupitarExpectancy = Math.floor(earthExpectancy / 11.86);
     this.jupitarDifference = this.jupitarExpectancy - this.jupitarAge;
+    this.jupitarOver = this.jupitarAge - this.jupitarExpectancy;
   }
 }
