@@ -16,6 +16,7 @@ export class GalactusCalculator {
     this.marsAge = Math.floor(earthAge / 1.88);
     this.marsExpectancy = Math.floor(earthExpectancy / 1.88);
     this.marsUnder = this.marsExpectancy - this.marsAge;
+    this.marsOver = this.marsAge - this.marsExpectancy;
     this.jupitarAge = Math.floor(earthAge / 11.86);
     this.jupitarExpectancy = Math.floor(earthExpectancy / 11.86);
     this.jupitarUnder = this.jupitarExpectancy - this.jupitarAge;

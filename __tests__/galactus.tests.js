@@ -17,7 +17,7 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
     expect(user.earthUnder).toEqual(26);
   });
 
-  test('Test 3: Should calculate earthOver value using the earthAge earthExpectancy values', () => {
+  test('Test 3: Should calculate earthOver value using the earthAge and earthExpectancy values', () => {
     let user = new GalactusCalculator(100, 50);
     expect(user.earthOver).toEqual(50);
   });
@@ -37,7 +37,7 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
     expect(user.mercuryUnder).toEqual(108);
   });
 
-  test('Test 7: Should calculate mercuryOver value using the mercuryAge age mercuryExpectancy values', () => {
+  test('Test 7: Should calculate mercuryOver value using the mercuryAge and mercuryExpectancy values', () => {
     let user = new GalactusCalculator(100, 50);
     expect(user.mercuryOver).toEqual(208);
   });
@@ -59,40 +59,45 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
 
   test('Test 11: Should calculate venusOver value using the venusAge and venusExpectancy values', () => {
     let user = new GalactusCalculator(100, 50);
-    expect(user.VenusOver).toEqual();
+    expect(user.venusOver).toEqual(81);
   });
 
-  test('Test 9: Should calculate marsAge value using the earthAge value', () =>{
+  test('Test 12: Should calculate marsAge value using the earthAge value', () =>{
     let user = new GalactusCalculator(24);
     expect(user.marsAge).toEqual(12);
   });
 
-  test('Test 10: Should calculate marsExpectancy value using earthExpectancy value', () =>{
+  test('Test 13: Should calculate marsExpectancy value using earthExpectancy value', () =>{
     let user = new GalactusCalculator(0,50);
     expect(user.marsExpectancy).toEqual(26);
   })
 
-  test('Test 11: Should calculate marsUnder values using the marsAge and marsExpectancy values', ()=>{
+  test('Test 14: Should calculate marsUnder values using the marsAge and marsExpectancy values', ()=>{
     let user = new GalactusCalculator(24,50);
     expect(user.marsUnder).toEqual(14);
   });
 
-  test('Test 12: Should calculate jupitarAge value using the earthAge value', () =>{
+  test('Test 15: Should calculate marsOver value using the marsAge and marsExpectancy values', () => {
+    let user = new GalactusCalculator(100, 50);
+    expect(user.marsOver).toEqual(27);
+  });
+
+  test('Test 16: Should calculate jupitarAge value using the earthAge value', () =>{
     let user = new GalactusCalculator(24);
     expect(user.jupitarAge).toEqual(2);
   });
 
-  test('Test 13: Should calculate jupitarExpectancy value using earthExpectancy value', () =>{
+  test('Test 17: Should calculate jupitarExpectancy value using earthExpectancy value', () =>{
     let user = new GalactusCalculator(0,50);
     expect(user.jupitarExpectancy).toEqual(4);
   });
 
-  test('Test 14: Should calculate jupitarUnder value using the jupitarAge and JupitarExpectancy values', ()=>{
+  test('Test 18: Should calculate jupitarUnder value using the jupitarAge and JupitarExpectancy values', ()=>{
     let user = new GalactusCalculator(24,50);
     expect(user.jupitarUnder).toEqual(2);
   });
 
-  test('Test 15: Should calculate jupitarOver value using the jupitarAge age JupitarExpectancy values', ()=>{
+  test('Test 19: Should calculate jupitarOver value using the jupitarAge age JupitarExpectancy values', ()=>{
     let user = new GalactusCalculator(100,50);
     expect(user.jupitarOver).toEqual(4);
   });
