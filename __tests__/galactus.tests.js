@@ -22,19 +22,24 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
     expect(user.earthOver).toEqual(50);
   });
 
-  test('Test 3: Should calculate mercuryAge value using the earthAge value', () =>{
+  test('Test 4: Should calculate mercuryAge value using the earthAge value', () =>{
     let user = new GalactusCalculator(24);
     expect(user.mercuryAge).toEqual(100);
   });
 
-  test('Test 4: Should calculate mercuryExpectancy value using the earthExpectancy value', () =>{
+  test('Test 5: Should calculate mercuryExpectancy value using the earthExpectancy value', () =>{
     let user = new GalactusCalculator(0,50);
     expect(user.mercuryExpectancy).toEqual(208);
   });
 
-  test('Test 5: Should calculate mercuryUnder value using the mercuryAge and mercuryExpectancy values', () =>{
+  test('Test 6: Should calculate mercuryUnder value using the mercuryAge and mercuryExpectancy values', () =>{
     let user = new GalactusCalculator(24,50);
     expect(user.mercuryUnder).toEqual(108);
+  });
+
+  test('Test 7: Should calculate mercuryOver value using the mercuryAge age mercuryExpectancy values', () => {
+    let user = new GalactusCalculator(100, 50);
+    expect(user.mercuryOver).toEqual(208);
   });
 
   test('Test 6: Should calculate venusAge value using the earthAge value', () =>{
