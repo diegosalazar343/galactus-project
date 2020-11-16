@@ -1,4 +1,3 @@
-//Returns their age in Mercury years. (A Mercury year is .24 Earth years.)
 
 export class GalactusCalculator {
   constructor(earthAge, earthExpectancy, earthDifference){
@@ -9,5 +8,6 @@ export class GalactusCalculator {
     this.mercuryExpectancy = Math.floor(earthExpectancy / .24);
     this.mercuryDifference = this.mercuryExpectancy - this.mercuryAge;
     this.venusAge = Math.floor(earthAge / .62);
+    this.venusExpectancy = Math.floor(earthExpectancy / .62);
   }
 }
