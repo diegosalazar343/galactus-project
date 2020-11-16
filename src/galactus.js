@@ -10,5 +10,6 @@ export class GalactusCalculator {
     this.venusAge = Math.floor(earthAge / .62);
     this.venusExpectancy = Math.floor(earthExpectancy / .62);
     this.marsAge = Math.floor(earthAge / 1.88);
+    this.marsExpectancy = Math.floor(earthExpectancy / 1.88);
   }
 }
