@@ -41,4 +41,14 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
     let user = new GalactusCalculator(0,50);
     expect(user.venusExpectancy).toEqual(80);
   });
+
+  test('Test 8: Should calculate venusDifference values using the venusAGe and venusExpecctancy values', () =>{
+    let user = new GalactusCalculator(24,50);
+    expect(user.venusDifference).toEqual();
+  });
+
+  test('Test 9: Should calculate marsAge value using the earthAge value', () =>{
+    let user = new GalactusCalculator(24);
+    expect(user.marsAge).toEqual(12);
+  });
 });
