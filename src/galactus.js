@@ -4,6 +4,6 @@ export class GalactusCalculator {
   constructor(earthAge, earthExpectancy, earthDifference){
     this.earthAge = earthAge;
     this.earthExpectancy = earthExpectancy;
-    this.earthDifference = earthAge - earthExpectancy;
+    this.earthDifference = earthExpectancy - earthAge;
   }
 }
