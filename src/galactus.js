@@ -17,4 +17,6 @@ export class GalactusCalculator {
     this.jupitarExpectancy = Math.floor(earthExpectancy / 11.86);
     this.jupitarUnder = this.jupitarExpectancy - this.jupitarAge;
   }
+
+
 }
