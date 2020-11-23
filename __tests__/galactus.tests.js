@@ -72,4 +72,9 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
     let user = new GalactusCalculator(24,50);
     expect(user.jupitarUnder).toEqual(2);
   });
+
+  test('Test 15: Should take in workout input from whatever user inputs', ()=> {
+    let user = new GalactusCalculator("little");
+    expect(user.workout).toEqual("little");
+  });
 });

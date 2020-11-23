@@ -1,6 +1,7 @@
 
 export class GalactusCalculator {
-  constructor(earthAge, earthExpectancy, earthUnder){
+  constructor(workout,earthAge, earthExpectancy, earthUnder){
+    this.workout = workout;
     this.earthAge = earthAge;
     this.earthExpectancy = earthExpectancy;
     this.earthUnder = earthExpectancy - earthAge;
@@ -17,6 +18,25 @@ export class GalactusCalculator {
     this.jupitarExpectancy = Math.floor(earthExpectancy / 11.86);
     this.jupitarUnder = this.jupitarExpectancy - this.jupitarAge;
   }
+  /*yearsLeft() {
+    if(this.workout === )
+  }
 
 
+  yearsOnMerc(){
+    return ``
+  }
+
+  yearsOnVen(){
+
+  }
+
+  yearsOnMars(){
+
+  }
+
+  yearsOnJup(){
+
+  }
+  */
 }
