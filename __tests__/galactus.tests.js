@@ -5,7 +5,7 @@ describe('GalactusCalculator', () => {
 
 test('Test 1: Should create a GalactusCalculator object, and include user input', () => {
   let user = new GalactusCalculator(24);
-  expect(user.earthAge).toEqual(24);
+  expect(user.userAge).toEqual(24);
   });
 
   test('Test 2: Should calculate earthUnder value using the earthAge and earthExpectancy values', () =>{
@@ -73,8 +73,8 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
     expect(user.jupitarUnder).toEqual(2);
   });
 
-  test('Test 15: Should take in workout input from whatever user inputs', ()=> {
-    let user = new GalactusCalculator("little");
-    expect(user.workout).toEqual("little");
+  test('Test 15: Should take in sex input from whatever user inputs', () => {
+    let user = new GalactusCalculator("female");
+    expect(user.userSex).toEqual("female");
   });
 });
