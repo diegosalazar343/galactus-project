@@ -8,12 +8,12 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
   expect(user.userAge).toEqual(24);
   });
 
-  test('Test 2: Should calculate earthUnder value using the earthAge and earthExpectancy values', () =>{
+  test('Test 2: Should calculate earthUnder value using the userAge and earthExpectancy values', () =>{
     let user = new GalactusCalculator(24,50);
     expect(user.earthUnder).toEqual(26);
   });
 
-  test('Test 3: Should calculate mercuryAge value using the earthAge value', () =>{
+  test('Test 3: Should calculate mercuryAge value using the userAge value', () =>{
     let user = new GalactusCalculator(24);
     expect(user.mercuryAge).toEqual(100);
   });
@@ -28,7 +28,7 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
     expect(user.mercuryUnder).toEqual(108);
   });
 
-  test('Test 6: Should calculate venusAge value using the earthAge value', () =>{
+  test('Test 6: Should calculate venusAge value using the userAge value', () =>{
     let user = new GalactusCalculator(24);
     expect(user.venusAge).toEqual(38);
   });
@@ -38,12 +38,12 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
     expect(user.venusExpectancy).toEqual(80);
   });
 
-  test('Test 8: Should calculate venusUnder values using the venusAge and venusExpectancy values', () =>{
+  test('Test 8: Should calculate venusUnder values using the userAge and venusExpectancy values', () =>{
     let user = new GalactusCalculator(24,50);
     expect(user.venusUnder).toEqual(42);
   });
 
-  test('Test 9: Should calculate marsAge value using the earthAge value', () =>{
+  test('Test 9: Should calculate marsAge value using the userAge value', () =>{
     let user = new GalactusCalculator(24);
     expect(user.marsAge).toEqual(12);
   });
@@ -58,7 +58,7 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
     expect(user.marsUnder).toEqual(14);
   });
 
-  test('Test 12: Should calculate jupitarAge value using the earthAge value', () =>{
+  test('Test 12: Should calculate jupitarAge value using the userAge value', () =>{
     let user = new GalactusCalculator(24);
     expect(user.jupitarAge).toEqual(2);
   });
