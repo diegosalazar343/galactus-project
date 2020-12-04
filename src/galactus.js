@@ -3,34 +3,84 @@ export default class GalactusCalculator {
     this.avgLife = 50;
     this.age = age;
   }
-    earthAge(){
-      let earthAge = this.age;
-      return earthAge;
+  earthAge(){
+    let earthAge = this.age;
+    return earthAge;
+  }
+  earthLeft(){
+    let earthAge = this.age
+    return Math.floor(this.avgLife - earthAge);
+  }
+  earthPassed(){
+    let earthPassed = this.age;
+    let earthYearsPassed = Math.floor(earthPassed);
+    if(earthYearsPassed > this.avgLife) {
+      return Math.floor(this.earthYearsPassed - this.avgLife);
+    } else {
+    return earthYearsPassed;
+  }
+  mercuryAge(){
+    let mercuryAge = Math.floor(this.age / .24);
+    return mercuryAge;
+  }
+  mercuryLeft(){
+    let mercuryAge = Math.floor(this.age / .24);
+    return Math.floor(this.avgLife - mercuryAge);
+  }
+  mercuryPassed(){
+    let mercuryPassed = Math.floor(this.age / .24);
+    let mercuryYearsPassed = Math.floor(mercuryPassed);
+    if (mercuryYearsPassed > this.avgLife) {
+    return Math.floor(this.mercuryYearsPassed - this.avgLife);
+    } else {
+    return mercuryYearsPassed;
+  }
+  venusAge(){
+    let venusAge = Math.floor(this.age / .62);
+    return venusAge;
+  }
+  venusLeft(){
+    let venusAge = Math.floor(this.age / .62);
+    return Math.floor(this.avgLife - venusAge);
+  }
+  venusPassed(){
+    let venusPassed = Math.floor(this.age / .62);
+    let venusYearsPassed = Math.floor(venusPassed);
+    if (venusYearsPassed > this.avgLife) {
+      return Math.floor(this.venusYearsPassed - this.avgLife);
+    } else {
+      return venusYearsPassed;
+  }
+  marsAge(){
+    let marsAge = Math.floor(this.age / 1.88);
+    return marsAge;
+  }
+  marsLeft(){
+    let marsAge = Math.floor(this.age / 1.88);
+    return Math.floor(this.avgLife - marsAge);
+  }
+  marsPassed(){
+    let marsPassed = Math.floor(this.age / 1.88);
+    let marsYearsPassed = Math.floor(marsPassed);
+    if (marsYearsPassed > this.avgLife) {
+      return Math.floor(this.marsYearsPassed - this.avgLife);
+    } else {
+      return marsYearsPassed;
     }
-    earthLeft(){
-      let earthAge = this.age
-      return Math.floor(this.avgLife - earthAge);
-    }
-    earthPassed(){
-      let earthPassed = this.age;
-      let earthYearsPassed = Math.floor(earthPassed);
-      if(earthYearsPassed > this.avgLife) {
-        return Math.floor(this.earthYearsPassed - this.avgLife);
-      } else {
-        return earthYearsPassed;
-      }
-
-
-    }
-
-    mercuryAge = Math.floor(age / .24);
-    mercuryExpectancy = Math.floor(earthExpectancy / .24);
-
-    venusAge = Math.floor(userAge / .62);
-    venusExpectancy = Math.floor(earthExpectancy / .62);
-
-    marsAge = Math.floor(userAge / 1.88);
-    marsExpectancy = Math.floor(earthExpectancy / 1.88);
-
-    jupitarAge = Math.floor(userAge / 11.86);
-    jupitarExpectancy = Math.floor(earthExpectancy / 11.86);
+  jupitarAge(){
+    let jupitarAge = Math.floor(this.age / 11.86);
+    return jupitarAge;
+  }
+  jupitarLeft(){
+    let jupitarAge = Math.floor(this.age / 11.86);
+    return Math.floor(this.avgLife - jupitarAge);
+  }
+  jupitarPassed(){
+    let jupitarPassed = Math.floor(this.age / 11.86);
+    let jupitarYearsPassed = Math.floor(jupitarPassed);
+    if (jupitarYearsPassed > this.avgLife) {
+      return Math.floor(this.jupitarYearsPassed - this.avgLife);
+    } else {
+      return jupitarYearsPassed;
+  }
+}
