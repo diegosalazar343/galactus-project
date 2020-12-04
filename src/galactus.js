@@ -1,22 +1,17 @@
 
 export class GalactusCalculator {
-  constructor(earthExpectancy, earthUnder, userAge, userSex){
+  constructor(userAge, userSex, earthExpectancy){
     this.userAge = userAge;
     this.userSex = userSex;
     this.earthExpectancy = earthExpectancy;
-    this.earthUnder = earthExpectancy - userAge;
     this.mercuryAge = Math.floor(userAge / .24);
     this.mercuryExpectancy = Math.floor(earthExpectancy / .24);
-    this.mercuryUnder = this.mercuryExpectancy - this.mercuryAge;
     this.venusAge = Math.floor(userAge / .62);
     this.venusExpectancy = Math.floor(earthExpectancy / .62);
-    this.venusUnder = this.venusExpectancy - this.venusAge;
     this.marsAge = Math.floor(userAge / 1.88);
     this.marsExpectancy = Math.floor(earthExpectancy / 1.88);
-    this.marsUnder = this.marsExpectancy - this.marsAge;
     this.jupitarAge = Math.floor(userAge / 11.86);
     this.jupitarExpectancy = Math.floor(earthExpectancy / 11.86);
-    this.jupitarUnder = this.jupitarExpectancy - this.jupitarAge;
   }
 
   yearsLeft() {

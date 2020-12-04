@@ -60,6 +60,9 @@ _Open the project in VS Code_
 _Edit the numbers in the galactus.tests.js file_
 _run npm run test to see your results_
 
+## Known Bugs
+_non-working user interface_
+
 ## Technologies Used
 _HTML_
 _CSS_
