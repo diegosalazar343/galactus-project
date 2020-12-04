@@ -1,14 +1,13 @@
 import $ from 'jquery';
 import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import { GalactusCalculator } from './js/user.js'
+import { GalactusCalculator } from './galactus.js';
 
 $(document).ready(function() {
-  $('#planets').submit(function(event){
+  $('#planets').submit(function(event) {
     event.preventDefault();
-    const userAge = $('#age').val();
-    const userSex = $('#sex').val();
-    let userHealth = new GalactusCalculator(userAge, userSex);
+    const  = $('#').val();
+    const = $('#').val();
+    let  = new GalactusCalculator(, );
   });
 });
