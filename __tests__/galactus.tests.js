@@ -11,4 +11,3 @@ test('Test 1: Should create a GalactusCalculator object, and include user input'
 
 
   })
-});
