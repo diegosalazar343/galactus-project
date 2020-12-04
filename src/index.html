@@ -4,19 +4,46 @@
   <title>Galactus Calculator</title>
 </head>
 <body>
-  <form class="form-group" id="planets">
-    <label for="age">Please enter how old you are:</label>
-    <input class="form-control" id="year" type="text">
-
-
-
-    <button class="btn btn-primary" type="submit">Submit</button>
-  </form>
-  <ul id="planets">
-    <li id="mercury"></li>
-    <li id="venus"></li>
-    <li id="mars"></li>
-    <li id="jupitar"></li>
-  </ul>
-</body>
+  <div class="container">
+    <form class="form-group" id="planets">
+      <h1>Galactus Calculator</h1>
+        <div class="age">
+          <label for="age">Please enter how old you are:</label>
+          <input class="form-control" id="year" type="text">
+          <button class="btn btn-primary" type="submit">Submit</button>
+          <p>Your age is : <span class="usersAge"></span></p>
+        </div>
+        <br>
+        <div class="spaceAge">
+          <h3>Your age on Different Planets.</h3>
+          <ul>
+            <li>Mercury: <span id="mercuryAge"></span></li>
+            <li>Venus: <span id="venusAge"></span></li>
+            <li>March: <span id="marchAge"></span></li>
+            <li>Jupitar: <span id="jupitarAge"></span></li>
+          </ul>
+        </div>
+        <br>
+        <div class="leftToLive">
+          <h3>This is how many years left to live on these planets</h3>
+          <ul>
+            <li>Mercury: <span id="mercuryLeft"></span></li>
+            <li>Venus: <span id="venusLeft"></span></li>
+            <li>March: <span id="marchLeft"></span></li>
+            <li>Jupitar: <span id="jupitarLeft"></span></li>
+          </ul>
+        </div>
+        <br>
+        <div class="yearsOver">
+          <h3>This is how many years you have surpassed the life expectancy on each planet</h3>
+          <ul>
+            <li>Mercury: <span id="mercuryPassed"></span></li>
+            <li>Venus: <span id="venusPassed"></span></li>
+            <li>March: <span id="marchPassed"></span></li>
+            <li>Jupitar: <span id="jupitarPassed"></span></li>
+          </ul>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
