@@ -68,4 +68,9 @@ test('Should create a GalactusCalculator object, using user input', () => {
     const answer = new GalactusCalculator(24, 0);
     expect(answer.jupitarAge()).toEqual(2);
   });
+
+  test('Should calculate the jupitarLeft value using the average life and users age', () => {
+    const answer = new GalactusCalculator(24, 50);
+    expect(answer.jupitarLeft()).toEqual(14);
+  });
 });
