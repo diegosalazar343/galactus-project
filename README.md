@@ -14,37 +14,35 @@ Describe: GalactusCalculator
 Test | Code | Expect
 ------ | ------ | ------------
 "Should create a GalactusCalculator object, and include user input. |
- {24}. |  expect(user.userAge).toEqual(24).
+ {24}. |  expect(answer.age).toEqual(24).
 
-"Should calculate earthUnder value using the userAge and earthExpectancy values". |  {24,50}.  | expect(user.earthUnder).toEqual(26).
+"Should calculate earthLeft value using the average life and users age". |  {24, 50}.  | expect(answer.earthLeft()).toEqual(26).
 
-"Should calculate mercuryAge value using the userAge value" | {24} | expect(user.mercuryAge).toEqual(100).
+"Should calculate earthPassed functionality" | {55, 50} | expect(answer.earthPassed()).toEqual(5).
 
-"Should calculate mercuryExpectancy value using the earthExpectancy value". | {0, 50} | expect(user.mercuryExpectancy).toEqual(208).
+"Should calculate mercuryAge using the age parameter". | {24, 0} | expect(answer.mercuryAge()).toEqual(100).
 
-"Should calculate mercuryUnder value using the mercuryAge and mercuryExpectancy values". | {24, 50}  | expect(user.mercuryUnder).toEqual(108).
+"Should calculate the mercuryLeft value using the average life and users age". | {24, 50}  | expect(answer.mercuryLeft()).toEqual(108).
 
-"Should calculate venusAge value using the userAge value". | {24} | expect(user.venusAge).toEqual(38).
+"Should calculate venusAge using the age parameter". | {24, 0} | expect(answer.venusAge()).toEqual(38).
 
-"Should calculate venusExpectancy value using the earthExpectancy value".
-| {0,50} | expect(user.venusExpectancy).toEqual(80).
+"Should calculate the venusLeft value using the average life and users age".
+| {24,50} | expect(answer.venusLeft()).toEqual(42);.
 
-"Should calculate venusUnder values using the venusAge and venusExpectancy values". | {24, 50} | expect(user.venusUnder).toEqual(42).
+"Should calculate venusPassed using the average life and users age". | {55, 50} | expect(answer.venusPassed()).toEqual(8).
 
-"Should calculate marsAge value using the userAge value". | {24} | expect(user.marsAge).toEqual(12).
+"Should calculate marsAge using the age parameter". | {24, 0} | expect(answer.marsAge()).toEqual(12).
 
-"Should calculate marsExpectancy value using earthExpectancy value". | {0, 50} | expect(user.marsExpectancy).toEqual(26).
+"Should calculate the marsLeft value using the average life and users age". | {24, 50} | expect(answer.marsLeft()).toEqual(14).
 
-"Should calculate marsUnder values using the marsAge and marsExpectancy values". | {24, 50} | expect(user.venusUnder).toEqual(14).
+"Should calculate marsPassed using the average life and users age". | {55, 50} | expect(answer.marsPassed()).toEqual(3).
 
-"Should calculate jupitarAge value using the userAge value". | {24} | expect(user.jupitarAge).toEqual(2).
+"Should calculate jupitarAge using the age parameter". | {24, 0} | expect(answer.jupitarAge()).toEqual(2).
 
-"Should calculate jupitarExpectancy value using earthExpectancy value".
-| {0, 50} | expect(user.jupitarExpectancy).toEqual(4).
+"Should calculate the jupitarLeft value using the average life and users age".
+| {24, 50} | expect(answer.jupitarLeft()).toEqual(2).
 
-"Should calculate jupitarUnder value using the jupitarAge and JupitarExpectancy values". | {24,50} | expect(user.jupitarUnder).toEqual(2).
-
-"Should take in sex input from whatever user inputs". | {"female"} | expect(user.userSex).toEqual("female").
+"Should calculate jupitarPassed using the average life and users age". | {55,50} | expect(answer.jupitarPassed()).toEqual(4).
 
 ## Setup
 _Go to Github_

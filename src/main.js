@@ -8,6 +8,6 @@ $(document).ready(function() {
   $('#planets').submit(function(event) {
     event.preventDefault();
     const age = $('#year').val();
-    $('.userAge').append(`your age is ($({age})`);
+    $('.userAge').append(`your age is (${age})`);
   });
 });
