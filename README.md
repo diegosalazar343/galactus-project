@@ -15,33 +15,19 @@ Describe: GalactusCalculator
 |------ | ------ | ------------
 | "Should create a GalactusCalculator object, and include user input. | {24}. | expect(answer.age).toEqual(24).
 | "Should calculate earthLeft value using the average life and users age". | {24, 50}. | expect(answer.earthLeft()).toEqual(26).
-
 | "Should calculate earthPassed functionality" | {55, 50} | expect(answer.| earthPassed()).toEqual(5).
-
 | "Should calculate mercuryAge using the age parameter". | {24, 0} | expect(answer.mercuryAge()).toEqual(100).
-
 | "Should calculate the mercuryLeft value using the average life and users age". | {24, 50}  | expect(answer.mercuryLeft()).toEqual(108).
-
 | "Should calculate venusAge using the age parameter". | {24, 0} | expect(answer.venusAge()).toEqual(38).
-
-| "Should calculate the venusLeft value using the average life and users age".
-| {24,50} | expect(answer.venusLeft()).toEqual(42);.
-
+| "Should calculate the venusLeft value using the average life and users age". | {24,50} | expect(answer.venusLeft()).toEqual(42);.
 | "Should calculate venusPassed using the average life and users age". | {55, 50} | expect(answer.venusPassed()).toEqual(8).
-
 | "Should calculate marsAge using the age parameter". | {24, 0} | expect(answer.marsAge()).toEqual(12).
-
 | "Should calculate the marsLeft value using the average life and users age". | {24, 50} | expect(answer.marsLeft()).toEqual(14).
-
 | "Should calculate marsPassed using the average life and users age". | {55, 50} | expect(answer.marsPassed()).toEqual(3).
-
 | "Should calculate jupitarAge using the age parameter". | {24, 0} | expect(answer.jupitarAge()).toEqual(2).
-
 | "Should calculate the jupitarLeft value using the average life and users age".
 | {24, 50} | expect(answer.jupitarLeft()).toEqual(2).
-
-| "Should calculate jupitarPassed using the average life and users age". | {55,50} | expect(answer.jupitarPassed()).toEqual(4).
-|
+| "Should calculate jupitarPassed using the average life and users age". | {55,50} | expect(answer.jupitarPassed()).toEqual(4). |
 ## Setup
 _Go to Github_
 _search diegosalazar343._
