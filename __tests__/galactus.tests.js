@@ -5,7 +5,7 @@ import {GalactusCalculator} from './../src/galactus.js';
 describe('GalactusCalculator', () => {
 
 test('Should create a GalactusCalculator object, using user input', () => {
-  const answer = new GalactusCalculator(20);
+  const answer = new GalactusCalculator(24);
   expect(answer.age).toEqual(24);
   });
 });
