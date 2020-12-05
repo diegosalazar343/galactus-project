@@ -27,7 +27,8 @@ export class GalactusCalculator {
     }
     mercuryLeft() {
       let mercuryAge = Math.floor(this.age / .24);
-      return Math.floor(this.avgLife - mercuryAge);
+      let mercuryExpectancy = Math.floor(this.avgLife/ .24);
+      return Math.floor(mercuryExpectancy - mercuryAge);
     }
     mercuryPassed() {
       let mercuryPassed = Math.floor(this.age / .24);
