@@ -13,12 +13,12 @@ export class GalactusCalculator {
     return Math.floor(this.avgLife - earthAge);
   }
   earthPassed() {
-    let earthPassed = this.age;
-    let earthYearsPassed = Math.floor(earthPassed);
+    let earthOver = this.age;
+    let earthYearsPassed = Math.floor(earthOver);
     if (earthYearsPassed > this.avgLife) {
-      return Math.floor(this.earthYearsPassed - this.avgLife);
+      return Math.floor(earthYearsPassed - this.avgLife);
     } else {
-      return earthYearsPassed
+      return earthYearsPassed;
     }
 
     mercuryAge(); {
