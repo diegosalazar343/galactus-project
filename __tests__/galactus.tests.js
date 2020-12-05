@@ -19,8 +19,8 @@ test('Should create a GalactusCalculator object, using user input', () => {
     expect(answer.earthPassed()).toEqual(5);
   });
 
-  test('Should calculate mercury age using the users input', () => {
-    const answer = new GalactusCalculator(24);
-    expect(answer.mercuryAge).toEqual(100);
+  test('Should calculate mercuryAge using age parameter', () => {
+    const answer = new GalactusCalculator(24 , 0);
+    expect(answer.mercuryAge()).toEqual(100);
   });
 });
