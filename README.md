@@ -9,7 +9,7 @@ _This project was intended to display our knowledge and practice our test driven
 
 ## Behavior
 
-Describe: GalactusCalculator
+Describe:GalactusCalculator()
 
 | Test | Code | Expect
 |------ | ------ | ------------
@@ -25,9 +25,9 @@ Describe: GalactusCalculator
 | "Should calculate the marsLeft value using the average life and users age". | {24, 50} | expect(answer.marsLeft()).toEqual(14).
 | "Should calculate marsPassed using the average life and users age". | {55, 50} | expect(answer.marsPassed()).toEqual(3).
 | "Should calculate jupitarAge using the age parameter". | {24, 0} | expect(answer.jupitarAge()).toEqual(2).
-| "Should calculate the jupitarLeft value using the average life and users age".
-| {24, 50} | expect(answer.jupitarLeft()).toEqual(2).
+| "Should calculate the jupitarLeft value using the average life and users age".| {24, 50} | expect(answer.jupitarLeft()).toEqual(2).
 | "Should calculate jupitarPassed using the average life and users age". | {55,50} | expect(answer.jupitarPassed()).toEqual(4). |
+
 ## Setup
 _Go to Github_
 _search diegosalazar343._
