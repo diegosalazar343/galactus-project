@@ -46,7 +46,8 @@ export class GalactusCalculator {
       }
       venusLeft() {
         let venusAge = Math.floor(this.age / .62);
-        return Math.floor(this.avgLife - venusAge);
+        let venusExpectancy = Math.floor(this.avgLife / .62);
+        return Math.floor(venusExpectancy - venusAge);
       }
       venusPassed() {
         let venusPassed = Math.floor(this.age / .62);
