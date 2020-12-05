@@ -65,13 +65,15 @@ export class GalactusCalculator {
         }
         marsLeft() {
           let marsAge = Math.floor(this.age / 1.88);
-          return Math.floor(this.avgLife - marsAge);
+          let marsExpectancy = Math.floor(this.avgLife / 1.88);
+          return Math.floor(marsExpectancy - marsAge);
         }
         marsPassed() {
           let marsPassed = Math.floor(this.age / 1.88);
           let marsYearsPassed = Math.floor(marsPassed);
-          if (marsYearsPassed > this.avgLife) {
-            return Math.floor(marsYearsPassed - this.avgLife);
+          let marsAvgLife = Math.floor(this.avgLife / 1.88);
+          if (marsYearsPassed > marsAvgLife) {
+            return Math.floor(marsYearsPassed - marsAvgLife);
           } else {
             return marsYearsPassed;
           }
@@ -82,13 +84,15 @@ export class GalactusCalculator {
           }
           jupitarLeft() {
             let jupitarAge = Math.floor(this.age / 11.86);
-            return Math.floor(this.avgLife - jupitarAge);
+            let jupitarExpectancy = Math.floor(this.avgLife / 11.86);
+            return Math.floor(jupitarExpectancy - jupitarAge);
           }
           jupitarPassed() {
             let jupitarPassed = Math.floor(this.age / 11.86);
             let jupitarYearsPassed = Math.floor(jupitarPassed);
-            if (jupitarYearsPassed > this.avgLife) {
-              return Math.floor(jupitarYearsPassed - this.avgLife);
+            let jupitarAvgLife = Math.floor(this.avgLife / 11.86);
+            if (jupitarYearsPassed > jupitarAvgLife) {
+              return Math.floor(jupitarYearsPassed - jupitarAvgLife);
             } else {
               return jupitarYearsPassed;
             }
