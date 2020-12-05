@@ -52,8 +52,9 @@ export class GalactusCalculator {
       venusPassed() {
         let venusPassed = Math.floor(this.age / .62);
         let venusYearsPassed = Math.floor(venusPassed);
-        if (venusYearsPassed > this.avgLife) {
-          return Math.floor(venusYearsPassed - this.avgLife);
+        let venusAvgLife = Math.floor(this.avgLife / .62);
+        if (venusYearsPassed > venusAvgLife) {
+          return Math.floor(venusYearsPassed - venusAvgLife);
         } else {
           return venusYearsPassed;
         }
