@@ -16,6 +16,6 @@ test('Should create a GalactusCalculator object, using user input', () => {
 
   test('Should calculate earthPassed functionality ', () => {
     const answer = new GalactusCalculator(55, 50);
-    expect(answer.earthPassed).toEqual(5);
+    expect(answer.earthPassed()).toEqual(5);
   });
 });
