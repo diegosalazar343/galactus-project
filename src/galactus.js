@@ -33,8 +33,9 @@ export class GalactusCalculator {
     mercuryPassed() {
       let mercuryPassed = Math.floor(this.age / .24);
       let mercuryYearsPassed = Math.floor(mercuryPassed);
-      if (mercuryYearsPassed > this.avgLife) {
-        return Math.floor(mercuryYearsPassed - this.avgLife);
+      let mercuryAvgLife = Math.floor(this.avgLife / .24);
+      if (mercuryYearsPassed > mercuryAvgLife) {
+        return Math.floor(mercuryYearsPassed - mercuryAvgLife);
       } else {
         return mercuryYearsPassed;
       }
