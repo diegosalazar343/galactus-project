@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1607188817083" clover="3.2.0">
-  <project timestamp="1607188817083" name="All files">
+<coverage generated="1607190144814" clover="3.2.0">
+  <project timestamp="1607190144814" name="All files">
     <metrics statements="59" coveredstatements="8" conditionals="10" coveredconditionals="1" methods="4" coveredmethods="3" elements="73" coveredelements="12" complexity="0" loc="59" ncloc="59" packages="1" files="1" classes="1"/>
     <file name="galactus.js" path="/Users/diegosalazar/Desktop/galactus-calculator/src/galactus.js">
       <metrics statements="59" coveredstatements="8" conditionals="10" coveredconditionals="1" methods="4" coveredmethods="3"/>
-      <line num="3" count="3" type="stmt"/>
-      <line num="4" count="3" type="stmt"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
       <line num="8" count="0" type="stmt"/>
       <line num="9" count="0" type="stmt"/>
       <line num="12" count="1" type="stmt"/>

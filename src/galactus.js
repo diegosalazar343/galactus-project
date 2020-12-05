@@ -33,7 +33,7 @@ export class GalactusCalculator {
       let mercuryPassed = Math.floor(this.age / .24);
       let mercuryYearsPassed = Math.floor(mercuryPassed);
       if (mercuryYearsPassed > this.avgLife) {
-        return Math.floor(this.mercuryYearsPassed - this.avgLife);
+        return Math.floor(mercuryYearsPassed - this.avgLife);
       } else {
         return mercuryYearsPassed;
       }
@@ -49,7 +49,7 @@ export class GalactusCalculator {
         let venusPassed = Math.floor(this.age / .62);
         let venusYearsPassed = Math.floor(venusPassed);
         if (venusYearsPassed > this.avgLife) {
-          return Math.floor(this.venusYearsPassed - this.avgLife);
+          return Math.floor(venusYearsPassed - this.avgLife);
         } else {
           return venusYearsPassed;
         };
@@ -65,7 +65,7 @@ export class GalactusCalculator {
           let marsPassed = Math.floor(this.age / 1.88);
           let marsYearsPassed = Math.floor(marsPassed);
           if (marsYearsPassed > this.avgLife) {
-            return Math.floor(this.marsYearsPassed - this.avgLife);
+            return Math.floor(marsYearsPassed - this.avgLife);
           } else {
             return marsYearsPassed;
           };
@@ -81,7 +81,7 @@ export class GalactusCalculator {
             let jupitarPassed = Math.floor(this.age / 11.86);
             let jupitarYearsPassed = Math.floor(jupitarPassed);
             if (jupitarYearsPassed > this.avgLife) {
-              return Math.floor(this.jupitarYearsPassed - this.avgLife);
+              return Math.floor(jupitarYearsPassed - this.avgLife);
             } else {
               return jupitarYearsPassed;
             }
