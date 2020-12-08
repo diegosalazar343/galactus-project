@@ -24,6 +24,11 @@ test('Should create a GalactusCalculator object, using user input', () => {
     expect(answer.earthPassed()).toEqual(5);
   });
 
+  test('Should return a string if that value is less than the average life', () => {
+    const answer = new GalactusCalculator(1, 50);
+    expect(answer.notOld).toEqual(49);
+  });
+
   test('Should calculate mercuryAge using the age parameter', () => {
     const answer = new GalactusCalculator(24);
     expect(answer.mercuryAge()).toEqual(100);
