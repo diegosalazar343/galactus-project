@@ -36,21 +36,21 @@ Describe:GalactusCalculator()
 | "Should return back the users age if that value is less than the average life expectancy" | {15,50}, | expect(answer.jupitarPassed()).toEqual(1). |
 
 ## Setup
-_Go to Github_
-_search diegosalazar343._
-_Clone the Galactus-Calculator project github repo._
-_To clone the repository first you must navigate to the main page of the repository._
-_Above the list of files, click Code._
-_To clone the repository click the clipboard icon._
-_Now Open Terminal_
-_Change the current working directory to the location where you want the cloned directory._
-_Type git clone, and then paste the URL you copied earlier. It should look like this: $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY._
-_Open the project in VS Code_
-_Edit the numbers in the galactus.tests.js file_
-_run npm run test to see your results, to do this follow the steps below_
-_First install Node on your machine if you don't have it already. To do this open your terminal and type brew install node_
-_To double check if it installed run node -v and it should return something like this v0.10.31_
-_Now run the command npm install_
+* Go to Github
+* search diegosalazar343.
+* Clone the Galactus-Calculator project github repo.
+* To clone the repository first you must navigate to the main page of the repository.
+* Above the list of files, click Code.
+* To clone the repository click the clipboard icon.
+* Now Open Terminal
+* Change the current working directory to the location where you want the cloned directory.
+ * Type git clone, and then paste the URL you copied earlier. It should look like this: $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.
+* Open the project in VS Code
+* Edit the numbers in the galactus.tests.js file
+* run npm run test to see your results, to do this follow the steps below.
+* First install Node on your machine if you don't have it already. To do this open your terminal and type brew install node.
+* To double check if it installed run node -v and it should return something like this v0.10.31
+* Now run the command npm install.
 
 
 
