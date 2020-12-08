@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1607399500463" clover="3.2.0">
-  <project timestamp="1607399500463" name="All files">
-    <metrics statements="55" coveredstatements="54" conditionals="10" coveredconditionals="9" methods="16" coveredmethods="16" elements="81" coveredelements="79" complexity="0" loc="55" ncloc="55" packages="1" files="1" classes="1"/>
+<coverage generated="1607399893669" clover="3.2.0">
+  <project timestamp="1607399893669" name="All files">
+    <metrics statements="55" coveredstatements="55" conditionals="10" coveredconditionals="10" methods="16" coveredmethods="16" elements="81" coveredelements="81" complexity="0" loc="55" ncloc="55" packages="1" files="1" classes="1"/>
     <file name="galactus.js" path="/Users/diegosalazar/Desktop/galactus-calculator/src/galactus.js">
-      <metrics statements="55" coveredstatements="54" conditionals="10" coveredconditionals="9" methods="16" coveredmethods="16"/>
+      <metrics statements="55" coveredstatements="55" conditionals="10" coveredconditionals="10" methods="16" coveredmethods="16"/>
       <line num="3" count="21" type="stmt"/>
       <line num="4" count="21" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
@@ -56,9 +56,9 @@
       <line num="91" count="2" type="stmt"/>
       <line num="92" count="2" type="stmt"/>
       <line num="93" count="2" type="stmt"/>
-      <line num="94" count="2" type="cond" truecount="1" falsecount="1"/>
-      <line num="95" count="0" type="stmt"/>
-      <line num="97" count="2" type="stmt"/>
+      <line num="94" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="95" count="1" type="stmt"/>
+      <line num="97" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
