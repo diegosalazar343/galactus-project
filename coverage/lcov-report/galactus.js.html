@@ -279,83 +279,83 @@
       return earthYearsPassed;
     }
   }
-    mercuryAge() {
-      let mercuryAge = Math.floor(this.age / .24);
-      return mercuryAge;
+  mercuryAge() {
+    let mercuryAge = Math.floor(this.age / .24);
+    return mercuryAge;
+  }
+  mercuryLeft() {
+    let mercuryAge = Math.floor(this.age / .24);
+    let mercuryExpectancy = Math.floor(this.avgLife/ .24);
+    return Math.floor(mercuryExpectancy - mercuryAge);
+  }
+  mercuryPassed() {
+    let mercuryPassed = Math.floor(this.age / .24);
+    let mercuryYearsPassed = Math.floor(mercuryPassed);
+    let mercuryAvgLife = Math.floor(this.avgLife / .24);
+    if (mercuryYearsPassed &gt; mercuryAvgLife) {
+      return Math.floor(mercuryYearsPassed - mercuryAvgLife);
+    } else {
+      return mercuryYearsPassed;
     }
-    mercuryLeft() {
-      let mercuryAge = Math.floor(this.age / .24);
-      let mercuryExpectancy = Math.floor(this.avgLife/ .24);
-      return Math.floor(mercuryExpectancy - mercuryAge);
+  }
+  venusAge() {
+    let venusAge = Math.floor(this.age / .62);
+    return venusAge;
+  }
+  venusLeft() {
+    let venusAge = Math.floor(this.age / .62);
+    let venusExpectancy = Math.floor(this.avgLife / .62);
+    return Math.floor(venusExpectancy - venusAge);
+  }
+  venusPassed() {
+    let venusPassed = Math.floor(this.age / .62);
+    let venusYearsPassed = Math.floor(venusPassed);
+    let venusAvgLife = Math.floor(this.avgLife / .62);
+    if (venusYearsPassed &gt; venusAvgLife) {
+      return Math.floor(venusYearsPassed - venusAvgLife);
+    } else {
+      return venusYearsPassed;
     }
-    mercuryPassed() {
-      let mercuryPassed = Math.floor(this.age / .24);
-      let mercuryYearsPassed = Math.floor(mercuryPassed);
-      let mercuryAvgLife = Math.floor(this.avgLife / .24);
-      if (mercuryYearsPassed &gt; mercuryAvgLife) {
-        return Math.floor(mercuryYearsPassed - mercuryAvgLife);
-      } else {
-        return mercuryYearsPassed;
-      }
+  }
+  marsAge() {
+    let marsAge = Math.floor(this.age / 1.88);
+    return marsAge;
+  }
+  marsLeft() {
+    let marsAge = Math.floor(this.age / 1.88);
+    let marsExpectancy = Math.floor(this.avgLife / 1.88);
+    return Math.floor(marsExpectancy - marsAge);
+  }
+  marsPassed() {
+    let marsPassed = Math.floor(this.age / 1.88);
+    let marsYearsPassed = Math.floor(marsPassed);
+    let marsAvgLife = Math.floor(this.avgLife / 1.88);
+    if (marsYearsPassed &gt; marsAvgLife) {
+      return Math.floor(marsYearsPassed - marsAvgLife);
+    } else {
+      return marsYearsPassed;
     }
-      venusAge() {
-        let venusAge = Math.floor(this.age / .62);
-        return venusAge;
-      }
-      venusLeft() {
-        let venusAge = Math.floor(this.age / .62);
-        let venusExpectancy = Math.floor(this.avgLife / .62);
-        return Math.floor(venusExpectancy - venusAge);
-      }
-      venusPassed() {
-        let venusPassed = Math.floor(this.age / .62);
-        let venusYearsPassed = Math.floor(venusPassed);
-        let venusAvgLife = Math.floor(this.avgLife / .62);
-        if (venusYearsPassed &gt; venusAvgLife) {
-          return Math.floor(venusYearsPassed - venusAvgLife);
-        } else {
-          return venusYearsPassed;
-        }
-      }
-        marsAge() {
-          let marsAge = Math.floor(this.age / 1.88);
-          return marsAge;
-        }
-        marsLeft() {
-          let marsAge = Math.floor(this.age / 1.88);
-          let marsExpectancy = Math.floor(this.avgLife / 1.88);
-          return Math.floor(marsExpectancy - marsAge);
-        }
-        marsPassed() {
-          let marsPassed = Math.floor(this.age / 1.88);
-          let marsYearsPassed = Math.floor(marsPassed);
-          let marsAvgLife = Math.floor(this.avgLife / 1.88);
-          if (marsYearsPassed &gt; marsAvgLife) {
-            return Math.floor(marsYearsPassed - marsAvgLife);
-          } else {
-            return marsYearsPassed;
-          }
-        }
-          jupitarAge() {
-            let jupitarAge = Math.floor(this.age / 11.86);
-            return jupitarAge;
-          }
-          jupitarLeft() {
-            let jupitarAge = Math.floor(this.age / 11.86);
-            let jupitarExpectancy = Math.floor(this.avgLife / 11.86);
-            return Math.floor(jupitarExpectancy - jupitarAge);
-          }
-          jupitarPassed() {
-            let jupitarPassed = Math.floor(this.age / 11.86);
-            let jupitarYearsPassed = Math.floor(jupitarPassed);
-            let jupitarAvgLife = Math.floor(this.avgLife / 11.86);
-            if (jupitarYearsPassed &gt; jupitarAvgLife) {
-              return Math.floor(jupitarYearsPassed - jupitarAvgLife);
-            } else {
-              return jupitarYearsPassed;
-            }
-          }
-        }
+  }
+  jupitarAge() {
+    let jupitarAge = Math.floor(this.age / 11.86);
+    return jupitarAge;
+  }
+  jupitarLeft() {
+    let jupitarAge = Math.floor(this.age / 11.86);
+    let jupitarExpectancy = Math.floor(this.avgLife / 11.86);
+    return Math.floor(jupitarExpectancy - jupitarAge);
+  }
+  jupitarPassed() {
+    let jupitarPassed = Math.floor(this.age / 11.86);
+    let jupitarYearsPassed = Math.floor(jupitarPassed);
+    let jupitarAvgLife = Math.floor(this.avgLife / 11.86);
+    if (jupitarYearsPassed &gt; jupitarAvgLife) {
+      return Math.floor(jupitarYearsPassed - jupitarAvgLife);
+    } else {
+      return jupitarYearsPassed;
+    }
+  }
+}
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
@@ -363,7 +363,7 @@
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Mon Dec 07 2020 19:58:13 GMT-0800 (Pacific Standard Time)
+                at Mon Dec 07 2020 20:13:52 GMT-0800 (Pacific Standard Time)
             </div>
         </div>
         <script src="prettify.js"></script>

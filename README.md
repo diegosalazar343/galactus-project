@@ -13,20 +13,27 @@ Describe:GalactusCalculator()
 
 | Test | Code | Expect
 |------ | ------ | ------------
-| "Should create a GalactusCalculator object, and include user input. | {24}. | expect(answer.age).toEqual(24).
+| "Should create a GalactusCalculator object, and include user input." | {24}. | expect(answer.age).toEqual(24).
+| "Should check earth Age functionality" | {24}. | expect(answer.age).toEqual(24).
 | "Should calculate earthLeft value using the average life and users age". | {24, 50}. | expect(answer.earthLeft()).toEqual(26).
 | "Should calculate earthPassed functionality" | {55, 50} | expect(answer.| earthPassed()).toEqual(5).
+| "Should return back the users age if that value is less than the average life" | {1, 50}. | expect(answer.earthPassed()).toEqual(1).
 | "Should calculate mercuryAge using the age parameter". | {24} | expect(answer.mercuryAge()).toEqual(100).
 | "Should calculate the mercuryLeft value using the average life and users age". | {24, 50}  | expect(answer.mercuryLeft()).toEqual(108).
+| "Should calculate mercuryPassed using the average life and users age | {55,50}. | expect(answer.mercuryPassed()).toEqual(21).
+| "Should return back the users age if that value is less than the average life expectancy | {1, 50} | expect(answer.mercuryPassed()).toEqual(4).
 | "Should calculate venusAge using the age parameter". | {24} | expect(answer.venusAge()).toEqual(38).
 | "Should calculate the venusLeft value using the average life and users age". | {24,50} | expect(answer.venusLeft()).toEqual(42);.
 | "Should calculate venusPassed using the average life and users age". | {55, 50} | expect(answer.venusPassed()).toEqual(8).
+| "Should return back the users age if that value is less than the average life expectancy | {6, 50}. | expect(answer.venusPassed()).toEqual(9).
 | "Should calculate marsAge using the age parameter". | {24} | expect(answer.marsAge()).toEqual(12).
 | "Should calculate the marsLeft value using the average life and users age". | {24, 50} | expect(answer.marsLeft()).toEqual(14).
 | "Should calculate marsPassed using the average life and users age". | {55, 50} | expect(answer.marsPassed()).toEqual(3).
+| "Should return back the users age if that value is less than the average life expectancy | {10,50}. | expect(answer.marsPassed()).toEqual(5).
 | "Should calculate jupitarAge using the age parameter". | {24} | expect(answer.jupitarAge()).toEqual(2).
 | "Should calculate the jupitarLeft value using the average life and users age".| {24, 50} | expect(answer.jupitarLeft()).toEqual(2).
-| "Should calculate jupitarPassed using the average life and users age". | {55,50} | expect(answer.jupitarPassed()).toEqual(4). |
+| "Should calculate jupitarPassed using the average life and users age". | {100,50} | expect(answer.jupitarPassed()).toEqual(4).
+| "Should return back the users age if that value is less than the average life expectancy" | {15,50}, | expect(answer.jupitarPassed()).toEqual(1). |
 
 ## Setup
 _Go to Github_
@@ -40,7 +47,12 @@ _Change the current working directory to the location where you want the cloned 
 _Type git clone, and then paste the URL you copied earlier. It should look like this: $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY._
 _Open the project in VS Code_
 _Edit the numbers in the galactus.tests.js file_
-_run npm run test to see your results_
+_run npm run test to see your results, to do this follow the steps below._
+_First install Node on your machine if you don't have it already. To do this open your terminal and type brew install node._
+_To double check if it installed run node -v and it should return something like this v0.10.31_
+_Now run the command npm install._
+
+
 
 ## Known Bugs
 _non-working user interface_
