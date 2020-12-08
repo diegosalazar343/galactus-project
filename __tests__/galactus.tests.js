@@ -25,7 +25,7 @@ test('Should create a GalactusCalculator object, using user input', () => {
   });
 
   test('Should calculate mercuryAge using the age parameter', () => {
-    const answer = new GalactusCalculator(24 , 0);
+    const answer = new GalactusCalculator(24);
     expect(answer.mercuryAge()).toEqual(100);
   });
 
@@ -40,7 +40,7 @@ test('Should create a GalactusCalculator object, using user input', () => {
   })
 
   test('Should calculate venusAge using the age parameter', () => {
-    const answer = new GalactusCalculator(24, 0);
+    const answer = new GalactusCalculator(24);
     expect(answer.venusAge()).toEqual(38);
   });
 
@@ -55,7 +55,7 @@ test('Should create a GalactusCalculator object, using user input', () => {
   })
 
   test('Should calculate marsAge using the age parameter', () => {
-    const answer = new GalactusCalculator(24, 0);
+    const answer = new GalactusCalculator(24);
     expect(answer.marsAge()).toEqual(12);
   });
 
@@ -70,7 +70,7 @@ test('Should create a GalactusCalculator object, using user input', () => {
   })
 
   test('Should calculate jupitarAge using the age parameter', () => {
-    const answer = new GalactusCalculator(24, 0);
+    const answer = new GalactusCalculator(24);
     expect(answer.jupitarAge()).toEqual(2);
   });
 
