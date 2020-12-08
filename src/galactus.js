@@ -15,11 +15,10 @@ export class GalactusCalculator {
   earthPassed() {
     let earthOver = this.age;
     let earthYearsPassed = Math.floor(earthOver);
-    const notOld = "you haven't exceeded the average life expectancy";
     if (earthYearsPassed > this.avgLife) {
       return Math.floor(earthYearsPassed - this.avgLife);
     } else {
-      return notOld;
+      return earthYearsPassed;
     }
   }
     mercuryAge() {
