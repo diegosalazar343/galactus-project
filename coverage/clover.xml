@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1607398703423" clover="3.2.0">
-  <project timestamp="1607398703424" name="All files">
+<coverage generated="1607398745113" clover="3.2.0">
+  <project timestamp="1607398745113" name="All files">
     <metrics statements="55" coveredstatements="53" conditionals="10" coveredconditionals="8" methods="16" coveredmethods="16" elements="81" coveredelements="77" complexity="0" loc="55" ncloc="55" packages="1" files="1" classes="1"/>
     <file name="galactus.js" path="/Users/diegosalazar/Desktop/galactus-calculator/src/galactus.js">
       <metrics statements="55" coveredstatements="53" conditionals="10" coveredconditionals="8" methods="16" coveredmethods="16"/>
