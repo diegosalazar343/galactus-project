@@ -106,6 +106,6 @@ test('Should create a GalactusCalculator object, using user input', () => {
 
   test('Should return back the users age if that value is less than the average life expectancy', () => {
     const answer = new GalactusCalculator(15, 50);
-    expect(answer.jupitarPassed()).toEqual(9);
+    expect(answer.jupitarPassed()).toEqual(1);
   });
 });
