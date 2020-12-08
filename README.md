@@ -47,10 +47,10 @@ _Change the current working directory to the location where you want the cloned 
 _Type git clone, and then paste the URL you copied earlier. It should look like this: $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY._
 _Open the project in VS Code_
 _Edit the numbers in the galactus.tests.js file_
-_run npm run test to see your results, to do this follow the steps below._
-_First install Node on your machine if you don't have it already. To do this open your terminal and type brew install node._
+_run npm run test to see your results, to do this follow the steps below_
+_First install Node on your machine if you don't have it already. To do this open your terminal and type brew install node_
 _To double check if it installed run node -v and it should return something like this v0.10.31_
-_Now run the command npm install._
+_Now run the command npm install_
 
 
 
