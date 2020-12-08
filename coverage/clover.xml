@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1607398566807" clover="3.2.0">
-  <project timestamp="1607398566807" name="All files">
-    <metrics statements="55" coveredstatements="52" conditionals="10" coveredconditionals="7" methods="16" coveredmethods="16" elements="81" coveredelements="75" complexity="0" loc="55" ncloc="55" packages="1" files="1" classes="1"/>
+<coverage generated="1607398703423" clover="3.2.0">
+  <project timestamp="1607398703424" name="All files">
+    <metrics statements="55" coveredstatements="53" conditionals="10" coveredconditionals="8" methods="16" coveredmethods="16" elements="81" coveredelements="77" complexity="0" loc="55" ncloc="55" packages="1" files="1" classes="1"/>
     <file name="galactus.js" path="/Users/diegosalazar/Desktop/galactus-calculator/src/galactus.js">
-      <metrics statements="55" coveredstatements="52" conditionals="10" coveredconditionals="7" methods="16" coveredmethods="16"/>
-      <line num="3" count="18" type="stmt"/>
-      <line num="4" count="18" type="stmt"/>
+      <metrics statements="55" coveredstatements="53" conditionals="10" coveredconditionals="8" methods="16" coveredmethods="16"/>
+      <line num="3" count="19" type="stmt"/>
+      <line num="4" count="19" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
@@ -31,12 +31,12 @@
       <line num="48" count="1" type="stmt"/>
       <line num="49" count="1" type="stmt"/>
       <line num="50" count="1" type="stmt"/>
-      <line num="53" count="1" type="stmt"/>
-      <line num="54" count="1" type="stmt"/>
-      <line num="55" count="1" type="stmt"/>
-      <line num="56" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="53" count="2" type="stmt"/>
+      <line num="54" count="2" type="stmt"/>
+      <line num="55" count="2" type="stmt"/>
+      <line num="56" count="2" type="cond" truecount="2" falsecount="0"/>
       <line num="57" count="1" type="stmt"/>
-      <line num="59" count="0" type="stmt"/>
+      <line num="59" count="1" type="stmt"/>
       <line num="63" count="1" type="stmt"/>
       <line num="64" count="1" type="stmt"/>
       <line num="67" count="1" type="stmt"/>
