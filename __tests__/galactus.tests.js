@@ -9,6 +9,11 @@ test('Should create a GalactusCalculator object, using user input', () => {
   expect(answer.age).toEqual(24);
   });
 
+  test('Should check earth Age functionality', () => {
+  const answer = new GalactusCalculator(24);
+  expect(answer.earthAge()).toEqual(23);
+  })
+
   test('Should calculate earthLeft value using the average life and users age', () => {
     const answer = new GalactusCalculator(24, 50);
     expect(answer.earthLeft()).toEqual(26);

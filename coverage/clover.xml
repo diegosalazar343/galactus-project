@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1607193838372" clover="3.2.0">
-  <project timestamp="1607193838372" name="All files">
-    <metrics statements="55" coveredstatements="48" conditionals="10" coveredconditionals="5" methods="16" coveredmethods="15" elements="81" coveredelements="68" complexity="0" loc="55" ncloc="55" packages="1" files="1" classes="1"/>
+<coverage generated="1607396167672" clover="3.2.0">
+  <project timestamp="1607396167672" name="All files">
+    <metrics statements="55" coveredstatements="50" conditionals="10" coveredconditionals="5" methods="16" coveredmethods="16" elements="81" coveredelements="71" complexity="0" loc="55" ncloc="55" packages="1" files="1" classes="1"/>
     <file name="galactus.js" path="/Users/diegosalazar/Desktop/galactus-calculator/src/galactus.js">
-      <metrics statements="55" coveredstatements="48" conditionals="10" coveredconditionals="5" methods="16" coveredmethods="15"/>
-      <line num="3" count="15" type="stmt"/>
-      <line num="4" count="15" type="stmt"/>
-      <line num="8" count="0" type="stmt"/>
-      <line num="9" count="0" type="stmt"/>
+      <metrics statements="55" coveredstatements="50" conditionals="10" coveredconditionals="5" methods="16" coveredmethods="16"/>
+      <line num="3" count="16" type="stmt"/>
+      <line num="4" count="16" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
       <line num="12" count="1" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
       <line num="16" count="1" type="stmt"/>
